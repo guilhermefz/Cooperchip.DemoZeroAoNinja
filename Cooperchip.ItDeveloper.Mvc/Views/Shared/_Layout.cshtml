@@ -9,10 +9,6 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="application-name" content="" />
-    <!-- Import google fonts - Heading first/ text second -->
-    <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
-    <!-- Css files -->
-    <!-- Icons -->
 
     <link href="~/bundle/css.core.min.css" rel="stylesheet" />
 
@@ -46,14 +42,11 @@
             </div>
         </nav>
     </header>
-    <div class="page-content sindebar-page right-sidebar-page clearfix">
-        <div class="page-content-wrapper">
-            <div class="page-content-inner">
 
-                @RenderBody()
+    <div class="page-content-inner">
+        <!-- / _CookieConsentPartial  -->
+        @RenderBody()
 
-            </div>
-        </div>
     </div>
 
     
@@ -63,22 +56,26 @@
     <div id="back-to-top">
         <a href="#">Back to Top</a>
     </div>
-    <!-- Javascripts -->
-    <!-- Load pace first -->
+    
+    @* /Esta lib deve vir primeiro *@
     <script src="plugins/core/pace/pace.min.js"></script>
-    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/libs/jquery-2.1.1.min.js">\x3C/script>')
-    </script>
-    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/libs/jquery-ui-1.10.4.min.js">\x3C/script>')
-    </script>
 
+    <script src="~/js/libs/jquery-2.1.1.min.js"></script>
+    <script src="~/js/libs/jquery-ui-1.10.4.min.js"></script>
 
     <script src="~/bundle/core.min.js"></script>
+
+    <script src="~/js/libs/date.js"></script>
+
     <script src="~/bundle/jqueryflot.min.js"></script>
     <script src="~/bundle/core.dashboard.min.js"></script>
+
+    <script src="~/plugins/misc/vectormaps/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="~/plugins/misc/vectormaps/maps/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="~/plugins/misc/countTo/jquery.countTo.js"></script>
+    <script src="~/js/jquery.dynamic.js"></script>
+    <script src="~/js/main.js"></script>
+    <script src="~/js/pages/dashboard.js"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 
