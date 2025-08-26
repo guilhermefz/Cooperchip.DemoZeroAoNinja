@@ -1,13 +1,5 @@
 [
   {
-    "outputFileName": "wwwroot/bundle/jQueryFlot.min.js",
-    "inputFiles": [
-      "wwwroot/plugins/charts/flot/jquery.flot.js",
-      "wwwroot/plugins/charts/flot/jquery.colorhelpers.js",
-      "wwwroot/plugins/charts/flot/excanvas.js"
-    ]
-  },
-  {
     "outputFileName": "wwwroot/bundle/core.min.js",
     "inputFiles": [
       "wwwroot/js/libs/modernizr.custom.js",
@@ -23,11 +15,26 @@
   {
     "outputFileName": "wwwroot/bundle/core.dashboard.min.js",
     "inputFiles": [
-      "wwwroot/plugins/charts/sparklines/jquery.sparkline.js",
+      "wwwroot/plugins/charts/float/jquery.flot.custom.js",
+      "wwwroot/plugins/charts/float/jquery.flot.pie.js",
+      "wwwroot/plugins/charts/float/jquery.flot.resize.js",
+      "wwwroot/plugins/charts/float/jquery.flot.time.js",
+      "wwwroot/plugins/charts/float/jquery.flot.growraf.js",
+      "wwwroot/plugins/charts/float/jquery.flot.categories.js",
+      "wwwroot/plugins/charts/float/jquery.flot.stack.js",
+      "wwwroot/plugins/charts/float/jquery.flot.tooltip.min.js",
+      "wwwroot/plugins/charts/float/jquery.flot.curvedLines.js",
+      "wwwroot/plugins/charts/sparkLines/jquery.sparkline.js",
       "wwwroot/plugins/charts/progressbars/progressbar.js",
       "wwwroot/plugins/ui/waypoint/waypoints.js",
       "wwwroot/plugins/ui/weather/skyicons.js",
-      "wwwroot/plugins/ui/notify/jquery.gritter.js"
+      "wwwroot/plugins/ui/notify/jquery.gritter.js",
+      "wwwroot/plugins/misc/vectormaps/jquery-jvectormap-1.2.2.min.js",
+      "wwwroot/plugins/misc/vectormaps/maps/jquery-jvectormap-world-mill-en.js",
+      "wwwroot/plugins/misc/countTo/jquery.countTo.js",
+      "wwwroot/js/jquery.dynamic.js",
+      "wwwroot/js/main.js",
+      "wwwroot/js/pages/dashboard.js"
     ]
   },
   {
