@@ -1,5 +1,18 @@
 [
   {
+    "outputFileName": "wwwroot/bundle/firstpage.min.js",
+    "inputFiles": [
+      "wwwroot/plugins/core/pace/pace.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/bundle/allpages.min.js",
+    "inputFiles": [
+      "wwwroot/Scripts/jquery.unobtrusive-ajax.js",
+      "wwwroot/js/bootstrap/bootstrap.js"
+    ]
+  },
+  {
     "outputFileName": "wwwroot/bundle/core.min.js",
     "inputFiles": [
       "wwwroot/js/libs/modernizr.custom.js",
@@ -8,8 +21,7 @@
       "wwwroot/plugins/core/slimscroll/jquery.slimscroll.js",
       "wwwroot/plugins/core/fastclick/fastclick.js",
       "wwwroot/plugins/core/velocity/jquery.velocity.min.js",
-      "wwwroot/plugins/core/quicksearch/jquery.quicksearch.js",
-      "wwwroot/js/bootstrap/bootstrap.js"
+      "wwwroot/plugins/core/quicksearch/jquery.quicksearch.js"
     ]
   },
   {
