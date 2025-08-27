@@ -1,0 +1,290 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\cooperchip.itdeveloper.mvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\cooperchip.itdeveloper.mvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\bunconfigdle.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\bunconfigdle.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\views\\shared\\partialviews\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\views\\shared\\partialviews\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\views\\shared\\partialviews\\_rightsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\views\\shared\\partialviews\\_rightsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\views\\shared\\partialviews\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\views\\shared\\partialviews\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\views\\shared\\partialviews\\_lis_do_menu_left.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\views\\shared\\partialviews\\_lis_do_menu_left.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\views\\shared\\partialviews\\_menu_inferior_left.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\views\\shared\\partialviews\\_menu_inferior_left.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\views\\shared\\partialviews\\_scripts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\views\\shared\\partialviews\\_scripts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|c:\\users\\guilherme.campos\\downloads\\projetocooperchip.demo\\src\\cooperchip.itdeveloper.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FBB7B4-4F74-41B2-B2A9-A7F297DC51C1}|src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj|solutionrelative:src\\cooperchip.itdeveloper.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 301,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cooperchip.ItDeveloper.Mvc",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-27T11:49:32.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\appsettings.json",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\appsettings.json",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-26T20:12:15.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_navbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_navbar.cshtml",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_navbar.cshtml",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_navbar.cshtml",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_navbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T20:11:07.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T20:11:07.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAALoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T20:11:07.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "bunconfigdle.json",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\bunconfigdle.json",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\bunconfigdle.json",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\bunconfigdle.json",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\bunconfigdle.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-26T20:11:07.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\libman.json",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\libman.json",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\libman.json",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-26T20:11:07.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAIBJwEwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T20:11:07.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_rightsidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_rightsidebar.cshtml",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_rightsidebar.cshtml",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_rightsidebar.cshtml",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_rightsidebar.cshtml",
+              "ViewState": "AgIAACkBAAAAAAAAAIBZwEMBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T20:11:07.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_footer.cshtml",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_footer.cshtml",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_footer.cshtml",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T20:11:07.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_lis_do_menu_left.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_lis_do_menu_left.cshtml",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_lis_do_menu_left.cshtml",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_lis_do_menu_left.cshtml",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_lis_do_menu_left.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T20:11:07.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_menu_inferior_left.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_menu_inferior_left.cshtml",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_menu_inferior_left.cshtml",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_menu_inferior_left.cshtml",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_menu_inferior_left.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T20:11:07.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_scripts.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_scripts.cshtml",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_scripts.cshtml",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_scripts.cshtml",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\Views\\Shared\\PartialViews\\_scripts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T20:11:07.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Cooperchip.ItDeveloper.Mvc\\Program.cs",
+              "ToolTip": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Program.cs",
+              "RelativeToolTip": "src\\Cooperchip.ItDeveloper.Mvc\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:11:07.532Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 99,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
