@@ -1,0 +1,69 @@
+﻿@model Paciente
+
+@{
+    ViewData["Title"] = "Daalhes Paciente";
+}
+
+<div class="row">
+    <div class="panel panel-heading">
+        <h3>Datalhes do Paciente</h3>
+    </div>
+    <form asp-controller="Paciente" asp-action="AdicionarPaciente">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <input type="hidden" name="Id" value="@Model.Id" id="Id" />
+
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel panel-heading">
+                    <h3>Dados Cadastrais</h3>
+                </div>
+            </div>
+            <ul>
+                <li><b>Id do Paciente:</b> <span style="font-size: 18px; color: #ed5353; font-stretch:expanded;">@Model.Id</span></li>
+                <li><b>Nome do Paciente:</b> <span style="font-size: 18px; color: #ed5353; font-stretch:expanded;">@Model.Nome</span></li>
+                <li><b>Cpf do Paciente:</b> <span style="font-size: 18px; color: #ed5353; font-stretch:expanded;">@Model.Cpf</span></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="panel panel-success">
+                <div class="panel panel-heading">
+                    <h3>Telefone do Paciente</h3>
+                </div>
+            </div>
+            <hr />
+            <table class="table tableprogress-bar-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Id do Telefone</th>
+                        <th>Tipo do Telefone</th>
+                        <th>Número</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Telefones)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.TipoDeTelefone</td>
+                            <td>@item.Numero</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="form-group">
+            <a href="javascript:void();" class="btn btn-info">Editar Telefone</a>
+            <a asp-controller="Paciente" asp-action="Index" class="btn btn-sucess">Voltar à tela inicial</a>
+        </div>
+    </form>
+
+</div>
+
+@section Scripts {
+@{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="/bundle/dataTables.min.js"></script>
+}

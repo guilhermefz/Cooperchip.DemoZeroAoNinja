@@ -1,4 +1,5 @@
 ﻿using Cooperchip.ItDeveloper.Mvc.Models;
+using Cooperchip.ItDeveloper.Mvc.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cooperchip.ItDeveloper.Mvc.Controllers
@@ -7,7 +8,12 @@ namespace Cooperchip.ItDeveloper.Mvc.Controllers
     [Route("gestao-de-pacientes")]
     public class PacienteController : BaseController
     {
-        
+        private readonly PacienteService _pacienteService;
+
+        public PacienteController(PacienteService pacienteService)
+        {
+            _pacienteService = pacienteService;
+        }
 
         [Route("pacientes")]
         [Route("obter-pacientes")]
@@ -34,10 +40,12 @@ namespace Cooperchip.ItDeveloper.Mvc.Controllers
             return View(pacientes);
         }
 
-        [Route("detalhe-de-paciente/{id}")]
+        [HttpGet]
+        [Route("detalhe-de-paciente")]
         public IActionResult DetalheDePaciente(string id)
         {
-            return View();
+            var paciente = _pacienteService.ObterPacientePorId(id);
+            return View(paciente);
         }
 
         [HttpPost]
