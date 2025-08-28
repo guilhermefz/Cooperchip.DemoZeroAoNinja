@@ -6,9 +6,9 @@ namespace Cooperchip.ItDeveloper.Mvc.Services
     {
        
 
-        public Paciente ObterPacientePorId(string id)
+        public PacienteTeste ObterPacientePorId(string id)
         {
-            return new Paciente()
+            return new PacienteTeste()
             {
                 Nome = "Juliano",
                 Cpf = "53972058",

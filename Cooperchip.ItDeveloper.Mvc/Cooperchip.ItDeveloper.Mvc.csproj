@@ -10,4 +10,8 @@
     <PackageReference Include="BuildBundlerMinifier2022" Version="2.9.11" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\src\Cooperchip.ItDeveloper.Domain\Cooperchip.ItDeveloper.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

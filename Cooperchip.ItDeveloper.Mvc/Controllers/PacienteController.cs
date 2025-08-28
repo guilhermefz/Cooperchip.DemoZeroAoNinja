@@ -20,9 +20,9 @@ namespace Cooperchip.ItDeveloper.Mvc.Controllers
         //[HttpGet("")]
         public IActionResult Index()
         {
-            var pacientes = new List<Paciente>()
+            var pacientes = new List<PacienteTeste>()
             {
-                new Paciente
+                new PacienteTeste
                 {
                 Nome = "Guilherme",
                 Cpf = "12154176917",
