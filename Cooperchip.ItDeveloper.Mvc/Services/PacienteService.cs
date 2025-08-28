@@ -1,4 +1,5 @@
-﻿using Cooperchip.ItDeveloper.Mvc.Models;
+﻿using Cooperchip.ItDeveloper.Domain.Entities;
+using Cooperchip.ItDeveloper.Mvc.Models;
 
 namespace Cooperchip.ItDeveloper.Mvc.Services
 {
@@ -6,20 +7,14 @@ namespace Cooperchip.ItDeveloper.Mvc.Services
     {
        
 
-        public PacienteTeste ObterPacientePorId(string id)
+        public Paciente ObterPacientePorId(string id)
         {
-            return new PacienteTeste()
+            return new Paciente()
             {
                 Nome = "Juliano",
                 Cpf = "53972058",
-                Telefones = new List<Telefone>()
-                {
-                    new Telefone() {
-                    Id = Guid.NewGuid(),
-                    Numero = "5832937",
-                    TipoDeTelefone = "Comercial"
-                    }
-                }
+                
+                
             };
         }
     }

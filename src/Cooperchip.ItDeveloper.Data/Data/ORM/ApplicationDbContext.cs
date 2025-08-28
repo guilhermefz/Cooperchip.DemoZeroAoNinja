@@ -1,4 +1,5 @@
-﻿using Cooperchip.ItDeveloper.Domain.Entities;
+﻿using Cooperchip.ItDeveloper.Data.Mappings;
+using Cooperchip.ItDeveloper.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Cooperchip.ItDeveloper.Data.Data.ORM
@@ -13,6 +14,20 @@ namespace Cooperchip.ItDeveloper.Data.Data.ORM
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetProperties().Where(p => p.ClrType == typeof(string))))
+            {
+                property.SetColumnType("varchar(90)");
+            }
+
+            //modelBuilder.ApplyConfiguration(new EstadoPacienteMap());
+            //modelBuilder.ApplyConfiguration(new PacienteMap());
+
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+
+            foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            {
+                relationship.DeleteBehavior = DeleteBehavior.ClientSetNull;
+            }
             base.OnModelCreating(modelBuilder);
         }
     }

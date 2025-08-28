@@ -1,4 +1,5 @@
-﻿using Cooperchip.ItDeveloper.Mvc.Models;
+﻿using Cooperchip.ItDeveloper.Domain.Entities;
+using Cooperchip.ItDeveloper.Mvc.Models;
 using Cooperchip.ItDeveloper.Mvc.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,21 +21,13 @@ namespace Cooperchip.ItDeveloper.Mvc.Controllers
         //[HttpGet("")]
         public IActionResult Index()
         {
-            var pacientes = new List<PacienteTeste>()
+            var pacientes = new List<Paciente>()
             {
-                new PacienteTeste
+                new Paciente
                 {
                 Nome = "Guilherme",
-                Cpf = "12154176917",
-                Telefones = new List<Telefone>
-                {
-                    new Telefone
-                    {
-                        Id = Guid.NewGuid(),
-                        Numero = "64872648",
-                        TipoDeTelefone = "Residence"
-                    }
-                }
+                Cpf = "12154176917"
+              
             }
             };
             return View(pacientes);
