@@ -1,15 +1,10 @@
-﻿using Cooperchip.ItDeveloper.Domain.Enuns;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Cooperchip.ItDeveloper.Domain.Entities.Base;
+using Cooperchip.ItDeveloper.Domain.Enuns;
 
 namespace Cooperchip.ItDeveloper.Domain.Entities
 {
-    public class Paciente
+    public class Paciente : EntityBase
     {
-        public Guid Id { get; set; }
 
         public Guid EstadoPacienteId { get; set; }
         public virtual EstadoPaciente EstadoPaciente { get; set; }
