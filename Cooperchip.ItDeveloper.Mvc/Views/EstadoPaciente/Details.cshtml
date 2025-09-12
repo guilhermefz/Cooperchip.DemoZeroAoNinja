@@ -1,2 +1,41 @@
-﻿@{
+﻿@using Cooperchip.ItDeveloper.Domain.Entities
+@model EstadoPaciente
+
+@{
+    ViewData["Title"] = "Detalhes do Estado do Paciente";
 }
+
+<partial name="PartialViews/_cabecalho" />
+
+<div class="panel panel-default panel-controls">
+    <div class="panel panel-heading">
+        <h3>Detalhes do estado do paciente</h3>
+    </div>
+
+    <div class="panel panel-body">
+        <div>
+            <h3>Estado do paciente</h3>
+            <hr />
+            <dl>
+                <dt class="dl-horizontal">
+                    @Html.DisplayNameFor(model => model.Descricao)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => Model.Descricao)
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
