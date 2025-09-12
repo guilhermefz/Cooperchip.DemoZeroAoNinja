@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Cooperchip.ItDeveloper.Data.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(ITDeveloperDbContext))]
     [Migration("20250828170431_InitialMigration")]
     partial class InitialMigration
     {
