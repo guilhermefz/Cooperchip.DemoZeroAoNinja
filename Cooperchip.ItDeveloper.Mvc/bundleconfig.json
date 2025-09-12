@@ -22,7 +22,10 @@
       "wwwroot/plugins/core/fastclick/fastclick.js",
       "wwwroot/plugins/core/velocity/jquery.velocity.min.js",
       "wwwroot//plugins/core/quicksearch/jquery.quicksearch.js",
-      "wwwroot//plugins/ui/bootbox/bootbox.js"
+      "wwwroot//plugins/ui/bootbox/bootbox.js",
+      "wwwroot/js/jquery.dynamic.js",
+      "wwwroot/js/main.js"
+
     ]
   },
   {
@@ -46,8 +49,6 @@
       "wwwroot/plugins/misc/vectormaps/jquery-jvectormap-1.2.2.min.js",
       "wwwroot/plugins/misc/vectormaps/maps/jquery-jvectormap-world-mill-en.js",
       "wwwroot/plugins/misc/countTo/jquery.countTo.js",
-      "wwwroot/js/jquery.dynamic.js",
-      "wwwroot/js/main.js",
       "wwwroot/js/pages/dashboard.js"
     ]
   },
