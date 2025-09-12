@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+.vs/Cooperchip.DemoZeroAoNinja/DesignTimeBuild/.dtbcache.v2
+.vs/Cooperchip.DemoZeroAoNinja/DesignTimeBuild/.dtbcache.v2
+.vs/Cooperchip.DemoZeroAoNinja/v17/.suo
