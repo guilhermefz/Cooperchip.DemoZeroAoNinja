@@ -1,3 +1,60 @@
-﻿
+﻿@using Cooperchip.ItDeveloper.Domain.Entities
+@model IEnumerable<EstadoPaciente>
+
 @{
+    ViewData["Title"] = "Lista de Estado dos Pacientes";
 }
+
+<vc:cabecalho titulo="Medical Management-Sys / Módulo Estado dos Pacientes"
+              subtitulo="Módulo de Administração de Pacientes"></vc:cabecalho>
+
+<div class="panel panel-info panel-controls">
+    <div class="panel panel-heading">
+        <h3>Lista de Estado dos Pacientes</h3>
+    </div>
+
+    <div class="panel panel-body">
+        <p>
+            <a class="btn btn-info" asp-controller="EstadoPaciente" asp-action="Create"><i class="fa fa-plus-circle"></i>&nbsp;&nbsp; Adicionar</a>
+        </p>
+
+
+        @* <table-grid items="@Model"></table-grid> *@
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Descrição</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Descricao</td>
+                        <td>
+                            <a asp-controller="EstadoPaciente" class="btn btn-default" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+                            <a asp-controller="EstadoPaciente" class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                            <a asp-controller="EstadoPaciente" class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Id</th>
+                    <th>Descrição</th>
+                    <th>Ação</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div class="row">
+        <a asp_controller="EstadoPaciente" class="btn btn-success" asp-action="Index">Voltar para lista</a>
+    </div>
+</div>

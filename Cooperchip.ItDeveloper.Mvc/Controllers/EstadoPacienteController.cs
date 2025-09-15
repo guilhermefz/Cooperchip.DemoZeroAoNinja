@@ -40,7 +40,7 @@ namespace Cooperchip.ItDeveloper.Mvc.Controllers
             return View();
         }
 
-        [HttpPost("AdicionarEstado")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(EstadoPaciente estadoPaciente)
         {
@@ -52,7 +52,7 @@ namespace Cooperchip.ItDeveloper.Mvc.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            return View();
+            return View(estadoPaciente);
         }
 
         public async Task<IActionResult> Edit(Guid? id)
@@ -70,7 +70,7 @@ namespace Cooperchip.ItDeveloper.Mvc.Controllers
             return View(model);
         }
 
-        [HttpPut]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Guid id, EstadoPaciente estadoPaciente)
         {
@@ -99,8 +99,21 @@ namespace Cooperchip.ItDeveloper.Mvc.Controllers
             return View(estadoPaciente);
         }
 
-        [HttpDelete, ActionName("Delete")]
+
+        [HttpGet]
         public async Task<IActionResult> Delete(Guid id)
+        {
+            var estadoPaciente = await _context.EstadoPaciente.FirstOrDefaultAsync(m => m.Id == id);
+
+            return estadoPaciente switch
+            {
+                null => NotFound(),
+                _ => View(estadoPaciente)
+            };
+        }
+
+        [HttpPost, ActionName("Delete")]
+        public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
             var estadoPaciente = await _context.EstadoPaciente.FirstOrDefaultAsync(m => m.Id == id);
             try
