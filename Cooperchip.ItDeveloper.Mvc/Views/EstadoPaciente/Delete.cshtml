@@ -12,11 +12,11 @@
         <h3>Exclusão do estado do paciente</h3>
     </div>
 
-    <h3>Está certo que deseja excluir este registro?</h3>
 
     <div class="panel panel-body">
         <div>
-            <h3>Estado do paciente</h3>
+
+            <h3>Está certo que deseja excluir este registro?</h3>
             <hr />
             <dl>
                 <dt class="dl-horizontal">
@@ -30,9 +30,9 @@
     </div>
     <div>
         <form asp-asp-controller="EstadoPaciente" asp-action="Delete">
-        <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" />
-        <a class="btn btn-warning" asp-controller="EstadoPaciente" class="btn btn-success" asp-action="Index">Voltar para lista</a>
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a class="btn btn-warning" asp-controller="EstadoPaciente" class="btn btn-success" asp-action="Index">Voltar para lista</a>
         </form>
     </div>
 </div>

@@ -8,15 +8,16 @@
 <partial name="PartialViews/_cabecalho" />
 
 
-<div class="panel panel-info panel-controls">
+<div class="row">
+
+<div class="panel panel-success">
+
     <div class="panel panel-heading">
         <h3>Adicionar Estado do Paciente</h3>
     </div>
 </div>
 
-<hr />
-<div class="row">
-    <div class="col-md-4">
+    <div class="panel panel-body col-md-12">
         <form asp-controller="EstadoPaciente" asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -28,10 +29,10 @@
                 <input type="submit" value="Adicionar Estado Paciente" class="btn btn-success" />
             </div>
         </form>
-    </div>
 
     <div>
-        <a class="btn btn-light" asp-controller="EstadoPaciente" asp-action="Index">Voltar para a Lista</a>
+        <a class="btn btn-info" asp-controller="EstadoPaciente" asp-action="Index">Voltar para a Lista</a>
+    </div>
     </div>
 
 </div>
