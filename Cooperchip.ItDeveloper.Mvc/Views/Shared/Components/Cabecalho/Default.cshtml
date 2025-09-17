@@ -1,11 +1,10 @@
-﻿
-@{
-}
+﻿@using Cooperchip.ItDeveloper.Mvc.Extensions.ViewComponents.Helpers
+@model Modulo
 
 <div id="page-header" class="clearfix">
     <div class="page-header">
-        <h2>Titulo</h2>
-        <span class="txt">Subtitulo</span>
+        <h2>@Model.Titulo</h2>
+        <span class="txt">@Model.Subtitulo</span>
     </div>
     <div class="header-stats">
         <div class="spark clearfix">

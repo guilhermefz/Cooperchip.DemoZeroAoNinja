@@ -5,8 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Cooperchip.ItDeveloper.Mvc.Controllers
 {
-    [Route("")]
-    [Route("gestao-de-pacientes")]
     public class PacienteController : BaseController
     {
         private readonly PacienteService _pacienteService;
@@ -16,34 +14,33 @@ namespace Cooperchip.ItDeveloper.Mvc.Controllers
             _pacienteService = pacienteService;
         }
 
-        [Route("pacientes")]
-        [Route("obter-pacientes")]
-        //[HttpGet("")]
-        public IActionResult Index()
+        
+        public async Task<IActionResult> Index()
         {
-            var pacientes = new List<Paciente>()
+            var pacientes = await _pacienteService.BuscarPacienteAsync();
+            List<PacienteViewModel> listView = new();
+
+            foreach ( var item in pacientes)
             {
-                new Paciente
+                listView.Add(new PacienteViewModel
                 {
-                Nome = "Guilherme",
-                Cpf = "12154176917"
-              
+                    Ativo = item.Ativo,
+                    Cpf = item.Cpf,
+                    DataInternacao = item.DataInternacao,
+                    DataNascimento = item.DataNascimento,
+                    Email = item.Email,
+                    EstadoPaciente = item.EstadoPaciente,
+                    EstadoPacienteId = item.EstadoPacienteId,
+                    Id = item.Id,
+                    Nome = item.Nome,
+                    Rg = item.Rg,
+                    RgDataEmissao = item.RgDataEmissao,
+                    RgOrgao = item.RgOrgao,
+                    Sexo = item.Sexo,
+                    TipoPaciente = item.TipoPaciente,
+                    Motivo = item.Motivo
+                });
             }
-            };
-            return View(pacientes);
-        }
-
-        [HttpGet]
-        [Route("detalhe-de-paciente")]
-        public IActionResult DetalheDePaciente(string id)
-        {
-            var paciente = _pacienteService.ObterPacientePorId(id);
-            return View(paciente);
-        }
-
-        [HttpPost]
-        public IActionResult AdicionarPaciente()
-        {
             return View();
         }
 

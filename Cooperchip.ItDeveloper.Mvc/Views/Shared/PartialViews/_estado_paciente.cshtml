@@ -1,15 +1,14 @@
 ﻿<div class="row">
     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <vc:estado-critico></vc:estado-critico>
+        @await Component.InvokeAsync("StatusPaciente", new { estado = "Crítico" })
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <vc:estado-estavel></vc:estado-estavel>
+        @await Component.InvokeAsync("StatusPaciente", new { estado = "Grave" })
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <vc:estado-grave></vc:estado-grave>
+        @await Component.InvokeAsync("StatusPaciente", new { estado = "Em Observação" })
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <vc:estado-observacao></vc:estado-observacao>
+        @await Component.InvokeAsync("StatusPaciente", new { estado = "Estável" })
     </div>
-    
 </div>

@@ -1,21 +1,23 @@
-﻿using Cooperchip.ItDeveloper.Domain.Entities;
+﻿using Cooperchip.ItDeveloper.Data.Data.ORM;
+using Cooperchip.ItDeveloper.Domain.Entities;
 using Cooperchip.ItDeveloper.Mvc.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace Cooperchip.ItDeveloper.Mvc.Services
 {
     public class PacienteService
     {
-       
+        private readonly ITDeveloperDbContext _context;  
 
-        public Paciente ObterPacientePorId(string id)
+        public PacienteService(ITDeveloperDbContext context)
         {
-            return new Paciente()
-            {
-                Nome = "Juliano",
-                Cpf = "53972058",
-                
-                
-            };
+            _context = context;
+        }
+        public async Task<List<Paciente>> BuscarPacienteAsync()
+        {
+            var viewmodel = await _context.Paciente.Include(x => x.EstadoPaciente).AsNoTracking().ToListAsync();
+            return viewmodel;
         }
     }
 }
