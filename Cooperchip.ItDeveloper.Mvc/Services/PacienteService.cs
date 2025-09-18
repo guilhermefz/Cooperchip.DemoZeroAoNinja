@@ -69,9 +69,20 @@ namespace Cooperchip.ItDeveloper.Mvc.Services
         }
 
 
-        public async Task Editar(Guid id)
+        public async Task Editar(Paciente paciente)
         {
-            Paciente paciente = await _context.Set<Paciente>().Include(x => x.EstadoPaciente).AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
+            _context.Entry(paciente).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+        }
+
+        
+
+
+
+        public async Task Deletar(Paciente paciente)
+        {
+            _context.Remove(paciente);
+            await _context.SaveChangesAsync();
         }
     }
 }
