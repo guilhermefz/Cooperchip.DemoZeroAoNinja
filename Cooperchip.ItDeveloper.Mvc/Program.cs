@@ -1,6 +1,9 @@
+using AutoMapper;
 using Cooperchip.ItDeveloper.Data.Data.ORM;
+using Cooperchip.ItDeveloper.Mvc.Mappers;
 using Cooperchip.ItDeveloper.Mvc.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Cooperchip.ItDeveloper.Mvc
 {
@@ -9,13 +12,13 @@ namespace Cooperchip.ItDeveloper.Mvc
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            
+
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddAutoMapper(typeof(PacienteMapper));
 
             builder.Services.AddDbContext<ITDeveloperDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddScoped<PacienteService>();
-
 
             var app = builder.Build();
 
