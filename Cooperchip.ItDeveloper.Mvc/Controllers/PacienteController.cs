@@ -36,14 +36,25 @@ namespace Cooperchip.ItDeveloper.Mvc.Controllers
         [HttpGet]
         public async Task<IActionResult> Create()
         {
-            ViewBag.EstadoPaciente = new SelectList(await _pacienteService.ListarEstadoPaciente(), "Id", "Descricao");
-            return await Task.FromResult(View());
+            var paciente = new PacienteViewModel
+            {
+                EstadosPaciente = (await _pacienteService.ListarEstadoPaciente())
+                          .Select(e => new SelectListItem
+                          {
+                              Value = e.Id.ToString(),
+                              Text = e.Descricao
+                          })
+                          .ToList()
+            };
+            return await Task.FromResult(View(paciente));
         }
+
 
         [HttpPost]
         public async Task<IActionResult> Create(PacienteViewModel model)
         {
-            if(ModelState.IsValid)
+            
+            if (ModelState.IsValid)
             {
 
                 var paciente = _mapper.Map<Paciente>(model);
@@ -51,7 +62,6 @@ namespace Cooperchip.ItDeveloper.Mvc.Controllers
                 try
                 {
                     await _pacienteService.SalvarPacienteAsync(paciente);
-                    TempData["Sucesso"] = "Registro Cadastrado com Suceso!";
                     return Redirect(nameof(Index));
                 }
                 catch (Exception ex)

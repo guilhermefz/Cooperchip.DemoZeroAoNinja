@@ -75,10 +75,6 @@ namespace Cooperchip.ItDeveloper.Mvc.Services
             await _context.SaveChangesAsync();
         }
 
-        
-
-
-
         public async Task Deletar(Paciente paciente)
         {
             _context.Remove(paciente);
