@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "mZexa/Tk9OM=",
+  "dgSpecHash": "JIwPqC2dylQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Guilherme.Campos\\Downloads\\CursoAsp.NetCore2.2-DoZero-Fase6\\src\\Cooperchip.ITDeveloper.Mvc\\Cooperchip.ITDeveloper.Mvc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Guilherme.Campos\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.20\\microsoft.windowsdesktop.app.ref.8.0.20.nupkg.sha512",
+    "C:\\Users\\Guilherme.Campos\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.20\\microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
+    "C:\\Users\\Guilherme.Campos\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.20\\microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512",
+    "C:\\Users\\Guilherme.Campos\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.20\\microsoft.netcore.app.host.win-x64.8.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

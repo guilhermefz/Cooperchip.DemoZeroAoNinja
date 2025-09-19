@@ -7,75 +7,183 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Cooperchip.ItDeveloper.Mvc
-build_property.RootNamespace = Cooperchip.ItDeveloper.Mvc
-build_property.ProjectDir = C:\Users\Guilherme.Campos\Downloads\projetoCooperchip.Demo\src\Cooperchip.ItDeveloper.Mvc\
+build_property.RootNamespace = Cooperchip.ITDeveloper.Mvc
+build_property.RootNamespace = Cooperchip.ITDeveloper.Mvc
+build_property.ProjectDir = C:\Users\Guilherme.Campos\Downloads\CursoAsp.NetCore2.2-DoZero-Fase6\src\Cooperchip.ITDeveloper.Mvc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Guilherme.Campos\Downloads\projetoCooperchip.Demo\src\Cooperchip.ItDeveloper.Mvc
+build_property.MSBuildProjectDirectory = C:\Users\Guilherme.Campos\Downloads\CursoAsp.NetCore2.2-DoZero-Fase6\src\Cooperchip.ITDeveloper.Mvc
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/Home/Dashboard.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Carrinho/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9cQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Carrinho/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/EstadoPaciente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUGFjaWVudGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/EstadoPaciente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUGFjaWVudGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/EstadoPaciente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUGFjaWVudGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/EstadoPaciente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUGFjaWVudGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/EstadoPaciente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUGFjaWVudGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Home/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/Home/Index.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Home/Icones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJY29uZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/Home/Privacy.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/Shared/Error.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Home/Sobre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Paciente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Paciente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Paciente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Paciente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Paciente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Paciente/_delete_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcX2RlbGV0ZV9kZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Paciente/_edit_create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcX2VkaXRfY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Produto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Produto/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xMaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/Components/Cabecalho/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FiZWNhbGhvXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/Components/EstadoCritico/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRXN0YWRvQ3JpdGljb1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/Components/EstadoEstavel/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRXN0YWRvRXN0YXZlbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/Components/EstadoGrave/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRXN0YWRvR3JhdmVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/Components/EstadoObservacaoViewComponents/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRXN0YWRvT2JzZXJ2YWNhb1ZpZXdDb21wb25lbnRzXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/Shared/PartialViews/_footer.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/PartialViews/_estado_paciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfZXN0YWRvX3BhY2llbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/PartialViews/_footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfZm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/Shared/PartialViews/_lis_do_menu_left.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/PartialViews/_head.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfaGVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/PartialViews/_layout_original.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfbGF5b3V0X29yaWdpbmFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/PartialViews/_lis_do_menu_left.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfbGlzX2RvX21lbnVfbGVmdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/Shared/PartialViews/_menu_inferior_left.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/PartialViews/_menu_inferior_left.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfbWVudV9pbmZlcmlvcl9sZWZ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/Shared/PartialViews/_navbar.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/PartialViews/_navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfbmF2YmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/Shared/PartialViews/_rightsidebar.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/PartialViews/_profile_left_sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfcHJvZmlsZV9sZWZ0X3NpZGViYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/PartialViews/_rightsidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfcmlnaHRzaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/Shared/PartialViews/_scripts.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/PartialViews/_scripts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfc2NyaXB0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/Shared/_CookieConsentPartial.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/_CookieConsentPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/Shared/_Layout.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/_ViewImports.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Guilherme.Campos/Downloads/projetoCooperchip.Demo/src/Cooperchip.ItDeveloper.Mvc/Views/_ViewStart.cshtml]
+[C:/Users/Guilherme.Campos/Downloads/CursoAsp.NetCore2.2-DoZero-Fase6/src/Cooperchip.ITDeveloper.Mvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

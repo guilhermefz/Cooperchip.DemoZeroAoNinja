@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj": {}
+    "C:\\Users\\Guilherme.Campos\\Downloads\\CursoAsp.NetCore2.2-DoZero-Fase6\\src\\Cooperchip.ITDeveloper.Mvc\\Cooperchip.ITDeveloper.Mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj": {
+    "C:\\Users\\Guilherme.Campos\\Downloads\\CursoAsp.NetCore2.2-DoZero-Fase6\\src\\Cooperchip.ITDeveloper.Mvc\\Cooperchip.ITDeveloper.Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj",
-        "projectName": "Cooperchip.ItDeveloper.Mvc",
-        "projectPath": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\Cooperchip.ItDeveloper.Mvc.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme.Campos\\Downloads\\CursoAsp.NetCore2.2-DoZero-Fase6\\src\\Cooperchip.ITDeveloper.Mvc\\Cooperchip.ITDeveloper.Mvc.csproj",
+        "projectName": "Cooperchip.ITDeveloper.Mvc",
+        "projectPath": "C:\\Users\\Guilherme.Campos\\Downloads\\CursoAsp.NetCore2.2-DoZero-Fase6\\src\\Cooperchip.ITDeveloper.Mvc\\Cooperchip.ITDeveloper.Mvc.csproj",
         "packagesPath": "C:\\Users\\Guilherme.Campos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme.Campos\\Downloads\\projetoCooperchip.Demo\\src\\Cooperchip.ItDeveloper.Mvc\\obj\\",
+        "outputPath": "C:\\Users\\Guilherme.Campos\\Downloads\\CursoAsp.NetCore2.2-DoZero-Fase6\\src\\Cooperchip.ITDeveloper.Mvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/UJhJOKkskK5HlUIXsauXW16mOZFgi5WEhdNIkeVOa6JXJsgewi/api": {}
         },
         "frameworks": {
           "net8.0": {
@@ -60,6 +61,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -68,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
