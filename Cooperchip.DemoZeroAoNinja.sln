@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{0857
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooperchip.ItDeveloper.Data", "src\Cooperchip.ItDeveloper.Data\Cooperchip.ItDeveloper.Data.csproj", "{0A7BC9FC-4685-4EB8-BE8C-848F4B078FE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooperchip.ItDeveloper.DomainCore", "src\Cooperchip.ItDeveloper.DomainCore\Cooperchip.ItDeveloper.DomainCore.csproj", "{7457553C-18B3-412C-897C-47ABECA06E20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0A7BC9FC-4685-4EB8-BE8C-848F4B078FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A7BC9FC-4685-4EB8-BE8C-848F4B078FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A7BC9FC-4685-4EB8-BE8C-848F4B078FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7457553C-18B3-412C-897C-47ABECA06E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7457553C-18B3-412C-897C-47ABECA06E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7457553C-18B3-412C-897C-47ABECA06E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7457553C-18B3-412C-897C-47ABECA06E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{CB0611F6-C249-42B8-AF46-61DF8100BC1E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{9D64964C-ED04-4D72-9FF2-5EADBCF63561} = {3FD56169-3F20-4BBE-AE89-98B05BB0EA68}
 		{0A7BC9FC-4685-4EB8-BE8C-848F4B078FE1} = {0857DAA9-8D3B-4039-9404-5273FC96C98A}
+		{7457553C-18B3-412C-897C-47ABECA06E20} = {3FD56169-3F20-4BBE-AE89-98B05BB0EA68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0956CD1E-1A43-4297-887B-8AC1E75DC70C}
