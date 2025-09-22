@@ -104,8 +104,17 @@ namespace Cooperchip.ItDeveloper.Mvc.Controllers
             }
 
             ViewBag.EstadoPaciente = new SelectList(await _pacienteService.ListarEstadoPaciente(), "Id", "Descricao");
+            var viewModel = _mapper.Map<PacienteViewModel>(paciente);
 
-            return View(_mapper.Map<PacienteViewModel>(paciente));
+            viewModel.EstadosPaciente = (await _pacienteService.ListarEstadoPaciente())
+                          .Select(e => new SelectListItem
+                          {
+                              Value = e.Id.ToString(),
+                              Text = e.Descricao
+                          })
+                          .ToList();
+
+            return await Task.FromResult(View(viewModel));
         }
 
         [HttpPost]
@@ -121,8 +130,8 @@ namespace Cooperchip.ItDeveloper.Mvc.Controllers
                 {
                     var paciente = _mapper.Map<Paciente>(model);
                     await _pacienteService.Editar(paciente);
-                    TempData["Sucesso"] = "Regitro Cadastrado com Sucesso!"; 
-                    RedirectToAction(nameof(Index));
+                    TempData["Sucesso"] = "Registro Cadastrado com Sucesso!"; 
+                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
                 {

@@ -11,7 +11,7 @@ namespace Cooperchip.ItDeveloper.Mvc.Models
         [Key]
         [DisplayName("Id do Paciente")]
         public Guid Id { get; set; }
-
+        [DisplayName("Estado do paciente")]
         public Guid? EstadoPacienteId { get; set; }
         public IEnumerable<SelectListItem>? EstadosPaciente { get; set; }
         public virtual EstadoPaciente? EstadoPaciente { get; set; }
@@ -38,7 +38,7 @@ namespace Cooperchip.ItDeveloper.Mvc.Models
         [DisplayName("Email")]
         [DataType(DataType.EmailAddress, ErrorMessage = "Email Inválido")]
         public string? Email { get; set; }
-        public bool? Ativo { get; set; }
+        public bool Ativo { get; set; }
         [DisplayName("CPF")]
         [Required(ErrorMessage = "Campo {0} é requerido")]
         [StringLength(11, ErrorMessage = "O campo {0} tem de ter {1} caracteres", MinimumLength = 11)]
